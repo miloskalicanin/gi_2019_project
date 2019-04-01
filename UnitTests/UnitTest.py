@@ -1,3 +1,8 @@
+import os, sys, inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
+
 import unittest
 from utils import get_alphabet
 from Heuristics.good_suffix import GoodSuffix
@@ -84,7 +89,9 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(9, nlc.get_offset_mismatched(next_to_first_aligned_character='Y'))
         self.assertEqual(3, nlc.get_offset_mismatched(next_to_first_aligned_character='E'))
 
-        self.assertEqual({'A': 1, 'AA': 6, 'B': 3, 'AB': 5, 'C': 4, 'BC': 4, 'CB': 3, 'E': 2, 'BE': 2, 'EA': 1, 'D': 0, 'AD': 0}, bmhs2._bad_char_tab)
+        self.assertEqual(
+            {'A': 1, 'AA': 6, 'B': 3, 'AB': 5, 'C': 4, 'BC': 4, 'CB': 3, 'E': 2, 'BE': 2, 'EA': 1, 'D': 0, 'AD': 0},
+            bmhs2._bad_char_tab)
         self.assertEqual(8, bmhs2._pattern_len)
 
     def test_boyer_moore_results(self):
