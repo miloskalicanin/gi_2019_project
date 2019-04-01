@@ -22,7 +22,7 @@ Pripremiti prezentaciju (Google slides ili power point) algoritama koji se testi
 Pripremiti video prezentaciju projekta (3 - 5 minuta trajanja) koja će biti dostupna na YouTube ili drugom video servisu na kojem mu je moguće pristupiti (10 poena).
 
 
-##Uputstvo za pokretanje benchmark-a:
+## Uputstvo za pokretanje benchmark-a:
 
 - Test primeri treba se nalaze u test direktorijumu. Inicijalno se tu nalaze upakovane verzije fajlova nad kojima se test izvrsava. Da bi se pokrenulo testiranje potrebno ih je raspakovati i modifikovati prema uputstvu koje je dato u nastavku.
 - Test primere je potrebno modifikovati tako da se u prvom redu nalaze paterni. Ako paterna ima vise potrebno ih je odvojiti zarezom, bez razmaka. Primer: patern1,patern2,...,paternN.
@@ -31,5 +31,5 @@ Pripremiti video prezentaciju projekta (3 - 5 minuta trajanja) koja će biti dos
 - Da bi se izvrsilo testiranje neophodno je pokrenuti fajl benchmark.py.
 
 
-##Video prezentacija
+## Video prezentacija
 Video prezentacija je dostupna na Youtube servisu preko linka: https://youtu.be/lC5LGlFL2N8
