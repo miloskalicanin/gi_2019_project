@@ -1,3 +1,10 @@
+import subprocess
+import sys
+
+if sys.version_info[:2] < (3, 0):
+    code = subprocess.call(['python3'] + sys.argv)
+    raise SystemExit(code)
+
 import argparse
 from argparse import RawTextHelpFormatter
 from Heuristics.good_suffix import GoodSuffix
