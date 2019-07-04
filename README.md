@@ -29,7 +29,3 @@ Pripremiti video prezentaciju projekta (3 - 5 minuta trajanja) koja će biti dos
 - Od drugog reda treba da se nalazi string koji se pretrazuje.
 - Ako korisnik zeli da doda svoj test, dovoljno je samo da doda fajl u gore pomenutom obliku u test direktorijum. Program je prilagodjen da sam iscrtava grafike na osnovu sadrzaja test direktorijuma.
 - Da bi se izvrsilo testiranje neophodno je pokrenuti fajl benchmark.py.
-
-
-## Video prezentacija
-Video prezentacija je dostupna na Youtube servisu preko linka: https://youtu.be/lC5LGlFL2N8
